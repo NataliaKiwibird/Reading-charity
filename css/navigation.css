@@ -25,6 +25,9 @@
     font-weight: bold;
     padding: 0 0;
 }
+.navigation__list-item:first-of-type {
+    width: 80px;
+}
 .navigation__list-item:last-of-type {
     width: 160px;
 }
