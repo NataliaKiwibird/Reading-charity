@@ -1,0 +1,34 @@
+.home {
+    width: 80vw;
+    height: 90vh;
+    border: 1px solid transparent;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.home__description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 50vw;
+    line-height: 1.5;
+    color: rgb(58, 58, 59);
+    margin-top: -15vw;
+    margin-left: 27vw;
+    text-align: end;
+}
+.home__header {
+    font-size: 22vw;
+    color: rgb(58, 58, 59);
+    margin-top: 7vw;
+}
+.home__header::first-letter {
+    font-size: 50vh;
+    padding:  0 0.3em;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 2vw;
+    margin-top: -6vw;
+    float: left;
+    
+}
