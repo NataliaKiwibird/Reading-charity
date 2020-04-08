@@ -29,7 +29,7 @@
 }
 .home__header {
     font-size: 22vw;
-    color: rgb(26,30,40);
+    color: rgb(0, 5, 51);
     margin-top: 3vw; /* do dopracowania */
 }
 @media (max-width: 1367px) {
@@ -48,7 +48,7 @@
     font-size: 50vh;
     padding:  0 0.3em;
     color: white;
-    background-color: rgb(200,44,36);
+    background-color: rgb(253, 61, 47);
     border-radius: 50%;
     margin-right: 2vw;
     margin-top: -6vw;
@@ -67,7 +67,7 @@
     font-size: 20px;
     width: 50vw;
     line-height: 1.5;
-    color: rgb(26,30,40);
+    color: rgb(0, 11, 39);
     margin-top: -15vw;
     margin-left: 27vw;
     text-align: end;
