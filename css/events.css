@@ -1,0 +1,30 @@
+.events__container {
+    width: 100vw;
+    height: 80vw;
+    box-sizing: border-box;
+}
+
+.events {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+}
+.events__button {
+    width: 30vw;
+    color: white;
+    background-color: rgb(253, 61, 47);
+    padding: 30px 40px;
+    border: 2px solid rgb(253, 61, 47);
+    border-radius: 15px/45px;
+
+}
+.events__text {
+    width: 20vw;
+    height: 80px;
+    border: 2px solid rgb(253, 61, 47);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
