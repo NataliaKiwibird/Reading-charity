@@ -1,0 +1,117 @@
+.contact__container {
+    width: 100vw;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(253, 61, 47);
+}
+.contact__title {
+    text-align: center;
+    margin: 30px auto 0 auto;
+    background-color: rgb(253, 61, 47);
+    color: white;
+    padding: 20px 0;
+    font-size: 42px;
+    font-family: 'Crimson Pro', serif;
+}
+@media (max-width: 420px) {
+    .contact__title  {
+        font-size: 36px;
+    }
+}
+.contact__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 70px 11vw 55px 8vw;
+}
+@media (max-width: 420px) {
+    .contact__top {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 769px) {
+    .contact__top {
+        margin: 40px 21vw 30px 15vw;
+    }
+}
+.contact__top-icon {
+    width: 36px;
+    margin-right: 20px;
+}
+@media (max-width: 769px) {
+    .contact__top-icon {
+        width: 24px;
+        margin: 10px;
+    }
+}
+.contact__top-item {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 10px auto;
+}
+.contact__top-link {
+    font-size: 20px;
+}
+@media (max-width: 769px) {
+    .contact__top-link {
+        font-size: 18px;
+        margin: 10px;
+    }
+}
+.contact__form {
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+@media (max-width: 420px) {
+    .contact__form {
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+}
+.contact__form-field {
+    width: 25vw;
+    padding: 10px;
+    margin: 20px 2vw;
+    border: 0.1px solid rgb(0, 11, 39);
+}
+@media (max-width: 420px) {
+    .contact__form-field {
+        width: 90vw;
+        margin: 10px
+    }
+}
+.contact__form-field::placeholder {
+    color: rgb(253, 61, 47);
+}
+.contact__form-textarea {
+    width: 54vw;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    border: 0.1px solid rgb(0, 11, 39);
+}
+@media (max-width: 420px) {
+    .contact__form-textarea {
+        width: 90vw;
+        margin: 10px;
+    }
+}
+.contact__form-textarea::placeholder {
+    color: rgb(253, 61, 47);
+}
+.contact__form-button {
+    padding: 15px 30px;
+    margin-bottom: 50px;
+}
+.contact__form-button:hover {
+    background-color: rgb(253, 61, 47);
+    border: none;
+    color: white;
+}
+@media (max-width: 420px) {
+    .contact__item-ig {
+        order: -2;
+    }
+}
