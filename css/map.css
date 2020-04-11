@@ -1,0 +1,28 @@
+
+.map {
+width: 100vw;
+height: 100%;
+}
+
+.map__title {
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgb(253, 61, 47);
+        color: white;
+        padding: 20px;
+        margin-top: -1px;
+        font-size: 48px;
+        font-family: 'Crimson Pro', serif;
+}
+@media (max-width: 420px) {
+    .map__title {
+        font-size: 26px;
+        padding: 10px;
+    }
+}
+.map__link {
+    display: block;
+    width: 100%;
+   height: 50vh;
+   border: none;
+   }
