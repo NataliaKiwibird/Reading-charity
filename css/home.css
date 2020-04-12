@@ -40,7 +40,7 @@
     }
 }
 .home__header::first-letter {
-    font-size: 54vh;
+    font-size: 53vh;
     text-transform: uppercase;
     padding:  0 0.3em;
     color: white;
