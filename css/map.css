@@ -11,13 +11,13 @@ height: 100%;
         color: white;
         padding: 20px;
         margin-top: -1px;
-        font-size: 48px;
+        font-size: 62px;
         font-family: 'Crimson Pro', serif;
 }
 @media (max-width: 420px) {
     .map__title {
-        font-size: 26px;
-        padding: 10px;
+        padding: 20px 0;
+        font-size: 32px;
     }
 }
 .map__link {

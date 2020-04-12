@@ -1,57 +1,53 @@
 *{
     box-sizing: border-box;
 }
-
-.home {
-    width: 80vw;
-    height: 85vh;
-    border: 1px solid transparent;
-    margin: 0 auto;
-    margin-top: -40px;
+.home__container {
+    width: 100vw;
+    height: 100%;
 }
-@media (max-width: 1367px) {
+.home {
+    width: 100%;
+    margin: 0 auto 80px 8.5vw;
+}
+@media (max-width: 1368px) {
     .home {
-        width: 90vw;
-        height: 90vh;
-        margin: 0 auto;
-        margin-top: 50px;
+        margin: 0 auto 50px 5vw;
     }
 }
-
-@media (max-width: 1024px) {
+@media (max-width: 420px) {
     .home {
-        width: 90vw;
-        height: 70vh;
-        border: 1px solid transparent;
-        margin: 0 auto;
-        margin-top: 40px;
+        margin: 0 auto 30px 5vw;
     }
 }
 .home__header {
-    font-size: 22vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21vw;
     color: rgb(0, 5, 51);
     margin-top: 3vw; /* do dopracowania */
 }
-@media (max-width: 1367px) {
+@media (max-width: 1368px) {
     .home__header {
         font-size: 18.5vw;
-        /* margin-top: 7vw; */
+        margin-top: 7vw;
+        margin-bottom: 30px;
     }
 }
-@media (max-width: 1024px) {
+@media (max-width: 420px) {
     .home__header {
         font-size: 18.5vw;
-        /* margin-top: 7vw; */
+        margin-top: 2vw;
+        margin-bottom: 15px;
     }
 }
 .home__header::first-letter {
-    font-size: 50vh;
+    font-size: 54vh;
+    text-transform: uppercase;
     padding:  0 0.3em;
     color: white;
     background-color: rgb(253, 61, 47);
     border-radius: 50%;
     margin-right: 2vw;
-    margin-top: -6vw;
+    margin-top: -8vw;
     float: left;
 }
 @media (max-width: 1367px) {
@@ -59,7 +55,7 @@
         font-size: 42vw;
         padding:  0 0.3em;
         margin-right: 2vw;
-        margin-top: -6vw;
+        margin-bottom: 2.5vh;
     }
 }
 .home__description {
@@ -74,14 +70,24 @@
 }
 @media (max-width: 1367px) {
 .home__description {
-    margin-left: 38vw;
-    font-size: 18px;
+    margin-left: 36vw;
+    margin-top: 4vh;
 }
 }
 @media (max-width: 1024px) {
     .home__description {
-        margin-left: 36vw;
-        font-size: 12px;
-        margin-top: -10vw;
+        /* margin-left: 36vw;
+        margin-top: -10vw; */
+        margin: 0 8vw 0 8vw;
+        width: 80vw;
+    }
+}
+@media (max-width: 420px) {
+    .home__description {
+        font-size: 16px;
+        /* margin-left: 36vw;
+        margin-top: -10vw; */
+        margin: 0 8vw 0 8vw;
+        width: 80vw;
     }
 }
