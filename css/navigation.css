@@ -28,8 +28,6 @@
         right: 0;
         bottom: 0;
         left: 0;
-        width: 100vw;
-        height: 100vh;
         background-color: white;
         flex-direction: column;
         justify-content: center;
@@ -104,8 +102,7 @@ a:visited {
 }
 @media (max-width: 767px) {
     .navigation__mobile-icon {
-        background-color: rgb(253, 61, 47);
-        width: 25px;
-        margin: 12px 0px 12px 85vw;
+        width: 35px;
+        margin: 8px 0px 15px 85vw;
     }
 }
