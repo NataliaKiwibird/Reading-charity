@@ -24,10 +24,6 @@
     color: rgb(0, 5, 51);
     /* margin-top: 3vw; */
     margin: 3vw auto 40px auto;
-    @font-face {
-        font-family: "Times New Roman";
-        src: url("Times-New-Roman/Times-New-Roman.ttf") format("truetype");
-      }
 }
 @media (max-width: 1368px) {
     .home__header {
@@ -39,7 +35,8 @@
 }
 @media (max-width: 420px) {
     .home__header {
-        font-size: 18.5vw;
+        font-family: 'Lora', serif;
+        font-size: 17.2vw;
         /* margin-top: 2vw;
         margin-bottom: 15px; */
         margin: 2vw auto 15px auto;
@@ -58,7 +55,7 @@
 }
 @media (max-width: 1367px) {
     .home__header::first-letter {
-        font-size: 42vw;
+        font-size: 40vw;
         padding:  0 0.3em;
         margin-right: 2vw;
         margin-bottom: 2.5vh;
