@@ -15,9 +15,14 @@
     display: flex;
     text-align: center;
     justify-content: flex-end;
-    margin-right: 12vw;
+    margin-right: 10vw;
     transition-duration: 0.3s;
     transition-property: opacity, transform;
+}
+@media (max-width: 1367px) {
+    .navigation__list {
+margin-right: 4vw;
+    }
 }
 @media (max-width: 767px) {
     .navigation__list {
