@@ -20,11 +20,14 @@
     }
 }
 .home__header {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 21vw;
     color: rgb(0, 5, 51);
     /* margin-top: 3vw; */
     margin: 3vw auto 40px auto;
+    @font-face {
+        font-family: "Times New Roman";
+        src: url("Times-New-Roman/Times-New-Roman.ttf") format("truetype");
+      }
 }
 @media (max-width: 1368px) {
     .home__header {
